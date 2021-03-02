@@ -17,11 +17,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 composer require nex-otaku/yii-shell
 ```
 
-Usage
+Running
 -----
 
 ```bash
 ./vendor/bin/yii shell
+```
+
+Hacking
+-----
+
+```php
+$logger = app(Psr\Log\LoggerInterface::class);
+$logger->info('Yippee ki yay');
 ```
 
 Questions? Ask!
