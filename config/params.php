@@ -9,7 +9,7 @@ use NexOtaku\YiiShell\ShellCommand;
  */
 
 return [
-    'nex-otaku/yii-shell' => [
+    'yiisoft/yii-console' => [
         'commands' => [
             'shell' => ShellCommand::class,
         ],
