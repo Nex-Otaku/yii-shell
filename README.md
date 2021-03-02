@@ -6,7 +6,7 @@
     <br>
 </p>
 
-This extension provides a REPL shell for [Yii framework](http://www.yiiframework.com) applications. Based on PsySh shell.
+REPL shell for [Yii framework](http://www.yiiframework.com) applications. Based on [PsySh](https://psysh.org/) shell.
 
 Installation
 ------------
