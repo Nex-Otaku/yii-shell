@@ -11,7 +11,7 @@ REPL shell for [Yii framework](http://www.yiiframework.com) applications. Based 
 Installation
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+The preferred way to install is through [composer](http://getcomposer.org/download/).
 
 ```
 composer require nex-otaku/yii-shell
