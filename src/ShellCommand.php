@@ -37,7 +37,15 @@ class ShellCommand extends Command
         $config->setUpdateCheck(Checker::NEVER);
         $config->setStartupMessage('Let\'s make Yii great again!');
         $shell = new Shell($config);
+        $shell->setIncludes($this->getIncludes());
 
         return $shell->run();
+    }
+
+    private function getIncludes(): array
+    {
+        return [
+            __DIR__ . DIRECTORY_SEPARATOR . 'functions.php',
+        ];
     }
 }

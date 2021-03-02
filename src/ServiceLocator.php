@@ -24,15 +24,12 @@ class ServiceLocator
         $this->container = $container;
     }
 
-    public static function get(string $class)
+    public function get(string $class)
     {
-        $locator = self::getInstance();
-        $container = $locator->container;
-
-        if ($container === null) {
+        if ($this->container === null) {
             throw new \LogicException('Cannot use DI container, please register it in Service Locator first');
         }
 
-        return $container->get($class);
+        return $this->container->get($class);
     }
 }
