@@ -1,0 +1,37 @@
+{
+    "name": "nex-otaku/yii-shell",
+    "type": "library",
+    "description": "Yii Shell",
+    "keywords": [
+        "yii",
+        "shell",
+        "repl"
+    ],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/nex-otaku/yii-shell",
+        "issues": "https://github.com/nex-otaku/yii-shell/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-mbstring": "*",
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/yii-console": "^3.0@dev",
+        "psy/psysh": "^0.10.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NexOtaku\\YiiShell\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "config/params.php"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
