@@ -28,7 +28,7 @@ Hacking
 -----
 
 ```php
-$logger = app(Psr\Log\LoggerInterface::class);
+$logger = $app->get(Psr\Log\LoggerInterface::class);
 $logger->info('Yippee ki yay');
 ```
 
