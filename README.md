@@ -8,7 +8,7 @@
 
 REPL shell for [Yii framework](http://www.yiiframework.com) applications. Based on [PsySh](https://psysh.org/) shell.
 
-## Requirements
+Requirements
 ---------------
 
 - PHP 7.4 or higher.
