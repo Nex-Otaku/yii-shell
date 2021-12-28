@@ -17,8 +17,8 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-mbstring": "*",
-        "yiisoft/di": "^3.0@dev",
-        "yiisoft/yii-console": "^3.0@dev",
+        "yiisoft/di": "^1.0",
+        "yiisoft/yii-console": "^1.0",
         "psy/psysh": "^0.10.6"
     },
     "autoload": {
